@@ -2,7 +2,7 @@ FROM ubuntu:xenial
 
 LABEL MAINTAINER="Gabriel Oliveira <contato@oliveiradigital.com.br>"
 
-ARG NODEJS_VERSION="8"
+ARG NODEJS_VERSION="10"
 ARG IONIC_VERSION="4.2.1"
 ARG ANDROID_SDK_VERSION="3859397"
 ARG ANDROID_HOME="/opt/android-sdk"
